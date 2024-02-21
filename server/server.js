@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, "/public/chat-app/dist")))
 
 
 app.get("*",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/public/chat-app","dist" , "index"))
+    res.sendFile(path.join(__dirname,"/public/chat-app","dist" , "index.html"))
 })
 
 

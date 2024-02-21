@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=League+Spartan:wght@100&family=Montserrat:wght@500&family=Poppins:ital@0;1&family=Roboto:wght@300;400;500;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body ,button , input{
+    font-family: "Rubik", sans-serif;
+}
+body{
+    overflow: hidden;
+    background-color: #ececec;
+    height: 100vh;
+}
+
+
+
+
+/* scrol bar */
+
+::-webkit-scrollbar{
+    cursor: pointer;
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    cursor: pointer;
+    background-color: #555;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #504d4d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #c4bebe;
+}
+/* registration page form */
+.banner{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.title{
+    font-size: 11px;
+}
+.left-box{
+    background: #dfdfde;
+}
+.left-box2{
+    background: #ffffff;
+}
+.left-box2 small{
+    font-weight: 600 !important;
+}
+.left-box small{
+    font-weight: 600 !important;
+}
+.right-box img{
+height: 70px;
+width: 70px;
+}
+.brand img{
+    width: 70px;
+    height: 70px;
+}
+
+
+/* ========================= */
+/* HOME */
+.home-chat{
+    background-color: #87adff;
+    height: 100vh;
+}
+/* .chat-cont{
+
+} */
+.sidebar-cont{
+    background-color: #dfdfde;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    height: 100vh;
+}
+.search-i{
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+.search-btn{
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+.convs{
+    overflow: auto !important;
+}
+.conv:hover{
+    background-color:#87adff;
+    cursor: pointer;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+}
+/* =------------------------------------------- */
+.shake {
+	animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) 0.2s both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+@keyframes shake {
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}

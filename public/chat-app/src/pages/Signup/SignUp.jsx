@@ -49,7 +49,7 @@ await signup(inputs);
                     </div>
                     <div className='flex flex-col justify-center md:p-14'> 
                         <div className='header-text mb-4'>
-                            <h2 className='text-center text-xl'>Login</h2> 
+                            <h2 className='text-center text-xl'>Sign Up</h2> 
                         </div>
                         <div className='py-0'>
                             <form onSubmit={handleSubmit} className='flex justify-center gap-1 flex-col items-center inp-grp'>

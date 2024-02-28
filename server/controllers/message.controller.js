@@ -42,7 +42,7 @@ export const sendMessage = async (req , res) =>{
 
 
 
-        // SOCKET IO FUNC WILL GO HERE
+        // SOCKET IO FUNC WILL GO HERE 
 
 const receiverSocketId = getReceiverSocketId(receiverId);
 if(receiverSocketId){
